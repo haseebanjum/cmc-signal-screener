@@ -1,0 +1,14 @@
+# Secrets — never commit a key
+.env
+
+# Cached API responses (regenerated on demand)
+data/cache/
+
+# Screen outputs (regenerated every run; a sample lives in docs/)
+results/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
